@@ -1,0 +1,13 @@
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\bin\Debug\WebLibrary.dll.config
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\bin\Debug\WebLibrary.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\bin\Debug\WebLibrary.pdb
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\bin\Debug\EntityFramework.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\bin\Debug\MvcPager.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\bin\Debug\Newtonsoft.Json.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\bin\Debug\EntityFramework.xml
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\bin\Debug\Newtonsoft.Json.xml
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\obj\Debug\WebLibrary.csprojResolveAssemblyReference.cache
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\obj\Debug\WebLibrary.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary\obj\Debug\WebLibrary.pdb
