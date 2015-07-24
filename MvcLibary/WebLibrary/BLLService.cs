@@ -39,8 +39,12 @@ namespace WebLibrary
         public bool Update(T model)
         {
             DbContext.Entry<T>(model).State = EntityState.Modified;
-            return  DbContext.SaveChanges()>0;
-           
+            return  DbContext.SaveChanges()>0;         
+        }
+
+        public T GetModel(params object[] keyValues)
+        {
+            return DbContext.Set<T>().Find(keyValues);
         }
 
     }
