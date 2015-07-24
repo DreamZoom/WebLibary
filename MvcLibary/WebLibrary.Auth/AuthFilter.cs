@@ -22,6 +22,8 @@ namespace WebLibrary.Auth
             
             var returnUrl = System.Configuration.ConfigurationManager.AppSettings["auth_return_url"];
             var url = filterContext.HttpContext.Request.Url.ToString();
+            returnUrl += "?back_url=" + url;
+
             if (filterContext.HttpContext.Session["RoleID"] == null)
             {
                 filterContext.Result = new RedirectResult(returnUrl);
@@ -30,7 +32,7 @@ namespace WebLibrary.Auth
 
             var roleID = Convert.ToInt32(filterContext.HttpContext.Session["RoleID"]);
            
-            returnUrl += "?back_url" + url;
+            
             if (!AuthManager.Verify(roleID, controllerName, actionName))
             {
                 filterContext.Result = new RedirectResult(returnUrl);

@@ -8,6 +8,7 @@ namespace MvcLibary.Controllers
 {
     public class HomeController : Controller
     {
+        [WebLibrary.Auth.AuthFilter]
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";

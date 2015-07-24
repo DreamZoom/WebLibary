@@ -11,3 +11,5 @@ E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Auth\bin\Debug\EntityFramework.SqlSe
 E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Auth\obj\Debug\WebLibrary.Auth.csprojResolveAssemblyReference.cache
 E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Auth\obj\Debug\WebLibrary.Auth.dll
 E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Auth\obj\Debug\WebLibrary.Auth.pdb
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Auth\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Auth\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
