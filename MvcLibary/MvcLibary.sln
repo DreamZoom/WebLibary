@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLibrary", "WebLibrary\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLibrary.Auth", "WebLibrary.Auth\WebLibrary.Auth.csproj", "{3D2D7DF5-DC8E-4B06-BCF2-9E574F105B1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLibrary.Article", "WebLibrary.Article\WebLibrary.Article.csproj", "{CA3C720D-B72B-472B-8090-EA7CB531419D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3D2D7DF5-DC8E-4B06-BCF2-9E574F105B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D2D7DF5-DC8E-4B06-BCF2-9E574F105B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D2D7DF5-DC8E-4B06-BCF2-9E574F105B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3C720D-B72B-472B-8090-EA7CB531419D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3C720D-B72B-472B-8090-EA7CB531419D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3C720D-B72B-472B-8090-EA7CB531419D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3C720D-B72B-472B-8090-EA7CB531419D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

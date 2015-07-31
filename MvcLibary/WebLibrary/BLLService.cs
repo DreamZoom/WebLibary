@@ -31,7 +31,7 @@ namespace WebLibrary
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
-        public bool Add(T model)
+        public virtual bool Add(T model)
         {
             DbContext.Entry<T>(model).State = EntityState.Added;
             return DbContext.SaveChanges() > 0;
@@ -42,7 +42,7 @@ namespace WebLibrary
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
-        public bool Delete(T model)
+        public virtual bool Delete(T model)
         {
             DbContext.Entry<T>(model).State = EntityState.Deleted;
             return DbContext.SaveChanges() > 0;
@@ -53,7 +53,7 @@ namespace WebLibrary
         /// </summary>
         /// <param name="model"></param>
         /// <returns></returns>
-        public bool Update(T model)
+        public virtual bool Update(T model)
         {
             DbContext.Entry<T>(model).State = EntityState.Modified;
             return  DbContext.SaveChanges()>0;         
@@ -64,7 +64,7 @@ namespace WebLibrary
         /// </summary>
         /// <param name="keyValues"></param>
         /// <returns></returns>
-        public T GetModel(params object[] keyValues)
+        public virtual T GetModel(params object[] keyValues)
         {
             return DbContext.Set<T>().Find(keyValues);
         }
@@ -78,7 +78,7 @@ namespace WebLibrary
         /// <param name="page"></param>
         /// <param name="pagesize"></param>
         /// <returns></returns>
-        public PagedList<T> GetModelList<Tkey>(Expression<Func<T,bool>> where,Expression<Func<T,Tkey>> order,int page,int pagesize=20)
+        public virtual PagedList<T> GetModelList<Tkey>(Expression<Func<T, bool>> where, Expression<Func<T, Tkey>> order, int page, int pagesize = 20)
         {
             return DbContext.Set<T>().Where(where).OrderBy(order).ToPagedList(page, pagesize);
         }
