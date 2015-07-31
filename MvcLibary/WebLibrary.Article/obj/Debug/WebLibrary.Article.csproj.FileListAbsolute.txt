@@ -1,0 +1,15 @@
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\bin\Debug\WebLibrary.Article.dll.config
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\bin\Debug\WebLibrary.Article.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\bin\Debug\WebLibrary.Article.pdb
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\bin\Debug\EntityFramework.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\bin\Debug\EntityFramework.SqlServer.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\bin\Debug\WebLibrary.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\bin\Debug\MvcPager.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\bin\Debug\WebLibrary.pdb
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\bin\Debug\EntityFramework.xml
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\bin\Debug\EntityFramework.SqlServer.xml
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\obj\Debug\WebLibrary.Article.csprojResolveAssemblyReference.cache
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\obj\Debug\WebLibrary.Article.dll
+E:\WebLibary\WebLibary\MvcLibary\WebLibrary.Article\obj\Debug\WebLibrary.Article.pdb
