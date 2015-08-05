@@ -11,6 +11,7 @@ namespace System.Web.Mvc
 {
     public static class HtmlExtensions
     {
+
         /// <summary>
         /// 编辑模型
         /// </summary>
@@ -20,14 +21,24 @@ namespace System.Web.Mvc
         {
             var propertys = helper.ViewData.ModelMetadata.Properties;
             StringBuilder sb = new StringBuilder();
+            
             foreach (var p in propertys)
             {
+                string templateName = string.Empty;
+
+                if (p.ModelType.IsEnum)
+                {
+                    templateName = "Enum";
+                }
+
                 if (!p.ShowForEdit) continue;
 
                 if (p.IsComplexType) continue;
 
                 string item = string.Format("<div class='field-label'>{0}</div>", p.DisplayName ?? p.PropertyName);
-                item += string.Format("<div class='field-show'>{0}</div>", helper.Editor(p.PropertyName));
+                string validString = string.Format("<div class='field-valid'>{0}</div>", helper.ValidationMessage(p.PropertyName));
+                item += string.Format("<div class='field-show'>{0}</div>", helper.Editor(p.PropertyName, templateName)+validString);
+                
                 sb.AppendFormat("<li>{0}</li>", item);
             }
             return new MvcHtmlString(sb.ToString());
@@ -45,11 +56,17 @@ namespace System.Web.Mvc
             StringBuilder sb = new StringBuilder();
             foreach (var p in propertys)
             {
+                string templateName = string.Empty;
+                if (p.ModelType.IsEnum)
+                {
+                    templateName = "Enum";
+                }
+
                 if (!p.ShowForDisplay) continue;
                 if (p.IsComplexType) continue;
 
                 string item = string.Format("<div class='field-label'>{0}</div>", p.DisplayName ?? p.PropertyName);
-                item += string.Format("<div class='field-show'>{0}</div>", helper.Display(p.PropertyName));
+                item += string.Format("<div class='field-show'>{0}</div>", helper.Display(p.PropertyName, templateName));
                 sb.AppendFormat("<li>{0}</li>", item);
             }
             return new MvcHtmlString(sb.ToString());

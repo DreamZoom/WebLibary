@@ -14,7 +14,11 @@ namespace MvcLibary.Models
     }
     public class User
     {
-        [UIHint("Enum")]
         public UserType uType { get; set; }
+        [Required]
+        public string UserName { get; set; }
+
+        [Required]
+        public DateTime RegTime { get; set; }
     }
 }

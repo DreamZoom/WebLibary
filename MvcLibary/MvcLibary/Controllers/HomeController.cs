@@ -34,5 +34,10 @@ namespace MvcLibary.Controllers
 
             return View();
         }
+
+        public ActionResult edit()
+        {
+            return View();
+        }
     }
 }
