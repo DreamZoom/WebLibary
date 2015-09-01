@@ -62,6 +62,7 @@
     <Compile Include="BLLService.cs" />
     <Compile Include="HtmlHelper\HtmlExtensions.cs" />
     <Compile Include="Logger.cs" />
+    <Compile Include="ManageBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

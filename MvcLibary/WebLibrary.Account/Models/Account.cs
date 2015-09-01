@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.Entity;
-using System.Data.Entity.Edm;
+
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace WebLibrary.Account.Models
 {
@@ -22,7 +24,7 @@ namespace WebLibrary.Account.Models
 
         public string Tell { get; set; }
 
-
+        [NotMapped]
         public int Age
         {
             get
