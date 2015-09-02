@@ -184,6 +184,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\Manage\ManageAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
@@ -195,6 +196,23 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Theme\common\bootstrap-3.3.5-dist\css\bootstrap-theme.css" />
+    <Content Include="App_Theme\common\bootstrap-3.3.5-dist\css\bootstrap-theme.min.css" />
+    <Content Include="App_Theme\common\bootstrap-3.3.5-dist\css\bootstrap.css" />
+    <Content Include="App_Theme\common\bootstrap-3.3.5-dist\css\bootstrap.min.css" />
+    <Content Include="App_Theme\common\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="App_Theme\common\font-awesome-4.3.0\css\font-awesome.css" />
+    <Content Include="App_Theme\common\font-awesome-4.3.0\css\font-awesome.min.css" />
+    <Content Include="App_Theme\common\font-awesome-4.3.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="Areas\Manage\Views\Shared\EditorTemplates\Address.ascx" />
+    <Content Include="Areas\Manage\Views\Shared\EditorTemplates\Date.ascx" />
+    <Content Include="Areas\Manage\Views\Shared\EditorTemplates\DateTime.ascx" />
+    <Content Include="Areas\Manage\Views\Shared\EditorTemplates\Email.ascx" />
+    <Content Include="Areas\Manage\Views\Shared\EditorTemplates\Enum.ascx" />
+    <Content Include="Areas\Manage\Views\Shared\EditorTemplates\HeadPicture.ascx" />
+    <Content Include="Areas\Manage\Views\Shared\EditorTemplates\MultiplePicture.ascx" />
+    <Content Include="Areas\Manage\Views\Shared\EditorTemplates\SinglePicture.ascx" />
+    <Content Include="Areas\Manage\Views\Shared\EditorTemplates\Time.ascx" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -251,6 +269,19 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Areas\Manage\Views\Web.config" />
+    <Content Include="Areas\Manage\Views\Shared\IFrame.Master" />
+    <Content Include="App_Theme\common\bootstrap-3.3.5-dist\css\bootstrap-theme.css.map" />
+    <Content Include="App_Theme\common\bootstrap-3.3.5-dist\css\bootstrap.css.map" />
+    <Content Include="App_Theme\common\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="App_Theme\common\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="App_Theme\common\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="App_Theme\common\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="App_Theme\common\font-awesome-4.3.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="App_Theme\common\font-awesome-4.3.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="App_Theme\common\font-awesome-4.3.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="App_Theme\common\font-awesome-4.3.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="App_Theme\common\font-awesome-4.3.0\fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.11.3.intellisense.js" />
     <Content Include="libs\easyui\easyloader.js" />
     <Content Include="libs\easyui\jquery.easyui.min.js" />
@@ -606,6 +637,8 @@
     <Content Include="libs\easyui\themes\metro\validatebox.css" />
     <Content Include="libs\easyui\themes\metro\window.css" />
     <Content Include="libs\easyui\themes\mobile.css" />
+    <Content Include="Scripts\bootstrap\bootstrap.js" />
+    <Content Include="Scripts\bootstrap\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.11.3.js" />
     <Content Include="Scripts\jquery-1.11.3.min.js" />
     <Content Include="Scripts\jquery-1.11.3.min.map" />
@@ -673,6 +706,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="App_Theme\default\bootstrap\" />
+    <Folder Include="App_Theme\manage\" />
+    <Folder Include="Areas\Manage\Controllers\" />
+    <Folder Include="Areas\Manage\Models\" />
+    <Folder Include="Areas\Manage\Views\Shared\DisplayTemplates\" />
     <Folder Include="Views\Shared\DisplayTemplates\" />
   </ItemGroup>
   <ItemGroup>
