@@ -83,5 +83,15 @@ namespace WebLibrary
             return DbContext.Set<T>().Where(where).OrderBy(order).ToPagedList(page, pagesize);
         }
 
+        public virtual List<T> GetModelList<Tkey>(Expression<Func<T, bool>> where, Expression<Func<T, Tkey>> order, int top=100)
+        {
+            return DbContext.Set<T>().Where(where).OrderBy(order).Take(top).ToList();
+        }
+
+        public virtual List<T> GetModelList()
+        {
+            return DbContext.Set<T>().ToList();
+        }
+
     }
 }

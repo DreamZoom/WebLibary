@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLLService.cs" />
+    <Compile Include="ControllerExtensions.cs" />
     <Compile Include="HtmlHelper\EasyUIGirdExtensions.cs" />
     <Compile Include="HtmlHelper\HtmlExtensions.cs" />
     <Compile Include="Logger.cs" />
